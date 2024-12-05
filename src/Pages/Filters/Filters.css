@@ -1,0 +1,7 @@
+.Filters .blur{
+    @apply bg-amber-600
+}
+
+.Filters .brightness{
+    @apply bg-lime-800;
+}

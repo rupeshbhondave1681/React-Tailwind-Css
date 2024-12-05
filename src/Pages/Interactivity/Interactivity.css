@@ -1,0 +1,39 @@
+.interactivity .hover .hoverButton{
+    @apply bg-blue-500
+    text-white
+  rounded-md
+   p-2
+   m-4
+   hover:bg-blue-800
+   hover:p-2
+}
+
+.interactivity .focus .focusButton{
+@apply bg-blue-500
+text-white
+rounded-md
+m-4
+p-2
+focus:bg-yellow-500
+}
+
+.interactivity .active .activeButton{
+    @apply bg-blue-500
+    text-white
+    rounded-md
+    m-4
+    p-2
+    active:bg-red-600
+}
+
+.interactivity .allInteractovity .button{
+    @apply bg-blue-500
+    text-white
+    rounded-md
+    m-4
+    p-2
+    hover:bg-blue-800
+    focus:bg-yellow-500
+    active:bg-red-600
+
+}
