@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -73,3 +74,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # React-Tailwind-css
 In this repository i have written all tailwind css styles React Component wise seprately for learning
 >>>>>>> ccf47528bd0fd59a1f21b8207be7773157dc0b6f
+=======
+# React-Tailwind-Css
+Tailwind css used React Component Wise for learning
+>>>>>>> ae422016771864d4308c24a308c2cfa04f0e2fff
