@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Filters from './Pages/Filters/Filters';
 import Interactivity from './Pages/Interactivity/Interactivity';
 import ComponentButtons from './Component/ComponentButtons/ComponentButtons';
+import MediaQueryBreakPoints from './Pages/MediaQueryBreakPoints/MediaQueryBreakPoints';
 function App() {
   return (
       <Router>
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<ComponentButtons/>}/>
           <Route path="/filters" element={<Filters />} />
           <Route path="/interactivity" element={<Interactivity/>}/>
+          <Route path="/mediaQueryBreakPoints" element={<MediaQueryBreakPoints/>}/>
         </Routes>
       </div>
     </Router>
