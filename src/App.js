@@ -4,24 +4,19 @@ import image from './monkey_image.jpg'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Filters from './Pages/Filters/Filters';
 import Interactivity from './Pages/Interactivity/Interactivity';
+import ComponentButtons from './Component/ComponentButtons/ComponentButtons';
+import MediaQueryBreakPoints from './Pages/MediaQueryBreakPoints/MediaQueryBreakPoints';
+import Column from './Pages/Column/Column';
 function App() {
   return (
-
- 
-
-      
-
       <Router>
-            <ul className='bg-black text-white flex'>
-      <li className='mx-2 hover:bg-white hover:text-black'> Home</li>
-      <li className='mx-2'> About</li>
-      <li className='mx-2'> Contact</li>
-      <li className='mx-2'> Gallary</li>
-     </ul>
       <div>
         <Routes>
+        <Route path="/" element={<ComponentButtons/>}/>
           <Route path="/filters" element={<Filters />} />
-          <Route path="/" element={<Interactivity/>}/>
+          <Route path="/interactivity" element={<Interactivity/>}/>
+          <Route path="/mediaQueryBreakPoints" element={<MediaQueryBreakPoints/>}/>
+          <Route path="/column" element={<Column/>}/>
         </Routes>
       </div>
     </Router>

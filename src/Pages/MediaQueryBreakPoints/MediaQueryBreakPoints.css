@@ -1,0 +1,18 @@
+.MediaQueryBreakPoints {
+    @apply h-screen
+}
+.MediaQueryBreakPoints .block{
+     @apply bg-red-500 h-full
+            lg:bg-green-500 
+            md:bg-blue-500
+            sm:bg-orange-500
+}
+.MediaQueryBreakPoints .block .text{
+    @apply text-black text-4xl 
+           lg:text-slate-500 
+              lg:text-5xl 
+           md:text-red-600  
+              md:text-7xl 
+           sm:text-white 
+              sm:text-3xl
+}
