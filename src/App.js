@@ -6,6 +6,7 @@ import Filters from './Pages/Filters/Filters';
 import Interactivity from './Pages/Interactivity/Interactivity';
 import ComponentButtons from './Component/ComponentButtons/ComponentButtons';
 import MediaQueryBreakPoints from './Pages/MediaQueryBreakPoints/MediaQueryBreakPoints';
+import Column from './Pages/Column/Column';
 function App() {
   return (
       <Router>
@@ -15,6 +16,7 @@ function App() {
           <Route path="/filters" element={<Filters />} />
           <Route path="/interactivity" element={<Interactivity/>}/>
           <Route path="/mediaQueryBreakPoints" element={<MediaQueryBreakPoints/>}/>
+          <Route path="/column" element={<Column/>}/>
         </Routes>
       </div>
     </Router>

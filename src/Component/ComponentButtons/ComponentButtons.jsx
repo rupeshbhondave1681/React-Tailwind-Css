@@ -14,6 +14,9 @@ export default function ComponentButtons() {
       <button>
         <Link to="/mediaQueryBreakPoints">Meadia Query & Break Point</Link>
       </button>
+      <button>
+        <Link to="/column">Column</Link>
+      </button>
     </div>
   );
 }
