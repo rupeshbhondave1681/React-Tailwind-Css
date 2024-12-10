@@ -17,6 +17,9 @@ export default function ComponentButtons() {
       <button>
         <Link to="/column">Column</Link>
       </button>
+      <button>
+        <Link to="/flex">Flex</Link>
+      </button>
     </div>
   );
 }
