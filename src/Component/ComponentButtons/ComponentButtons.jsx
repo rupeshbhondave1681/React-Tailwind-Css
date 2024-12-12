@@ -20,6 +20,9 @@ export default function ComponentButtons() {
       <button>
         <Link to="/flex">Flex</Link>
       </button>
+      <button>
+        <Link to="/grid">Grid</Link>
+      </button>
     </div>
   );
 }
