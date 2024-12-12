@@ -8,6 +8,7 @@ import ComponentButtons from './Component/ComponentButtons/ComponentButtons';
 import MediaQueryBreakPoints from './Pages/MediaQueryBreakPoints/MediaQueryBreakPoints';
 import Column from './Pages/Column/Column';
 import Flex from './Pages/Flex/Flex';
+import Grid from './Pages/Grid/Grid';
 function App() {
   return (
       <Router>
@@ -19,6 +20,7 @@ function App() {
           <Route path="/mediaQueryBreakPoints" element={<MediaQueryBreakPoints/>}/>
           <Route path="/column" element={<Column/>}/>
           <Route path="/flex" element={<Flex/>}/>
+          <Route path="/grid" element={<Grid/>}/>
         </Routes>
       </div>
     </Router>
